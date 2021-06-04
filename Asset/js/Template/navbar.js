@@ -2,7 +2,7 @@ $(function () {
     var bar = '';
 
  bar += '   <!-- NavBar -->                 ';
- bar += '   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">                   ';
+ bar += '   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"  >                   ';
  bar += '   <div class="container-fluid">                   ';
  bar += '       <a class="navbar-brand" href="index.html">                   ';
  bar += '       <img src="Asset/img/iconfit.png" alt="" width="37" height="35" class="d-inline-block align-text-top rounded-circle">                    ';
