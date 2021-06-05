@@ -1,7 +1,7 @@
 $(function () {
     var bar = '';
 
- bar += '   <!-- NavBar -->                 ';
+ bar += '   <!-- NavBar -->                  ';
  bar += '   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"  >                   ';
  bar += '   <div class="container-fluid">                   ';
  bar += '       <a class="navbar-brand" href="#">                   ';
