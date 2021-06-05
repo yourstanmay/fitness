@@ -22,6 +22,10 @@ $(function () {
  bar += '           <li class="nav-item">                   ';
  bar += '           <a class="nav-link active" aria-current="page" href="#CDietPlan">Celebrities Diet</a>                    ';
  bar += '           </li>                   ';
+ bar += '           </li>                   ';
+ bar += '           <li class="nav-item">                   ';
+ bar += '           <a class="nav-link active" aria-current="page" href="#Nutrition&Calories">Nutrition & Calories</a>                    ';
+ bar += '           </li>                   ';
 
  
  bar += '       </ul>                   ';
