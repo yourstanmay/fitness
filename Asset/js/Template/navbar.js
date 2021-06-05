@@ -4,7 +4,7 @@ $(function () {
  bar += '   <!-- NavBar -->                 ';
  bar += '   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"  >                   ';
  bar += '   <div class="container-fluid">                   ';
- bar += '       <a class="navbar-brand" href="index.html">                   ';
+ bar += '       <a class="navbar-brand" href="#">                   ';
  bar += '       <img src="Asset/img/iconfit.png" alt="" width="37" height="35" class="d-inline-block align-text-top rounded-circle">                    ';
  bar += '       YoursTanmay                 ';
  bar += '       </a>                    ';
@@ -18,6 +18,9 @@ $(function () {
  bar += '           </li>                   ';
  bar += '           <li class="nav-item">                   ';
  bar += '           <a class="nav-link active" aria-current="page" href="#WorkOut">WorkOut</a>                    ';
+ bar += '           </li>                   ';
+ bar += '           <li class="nav-item">                   ';
+ bar += '           <a class="nav-link active" aria-current="page" href="#CDietPlan">Celebrities Diet</a>                    ';
  bar += '           </li>                   ';
 
  
