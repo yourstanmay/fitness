@@ -1,6 +1,6 @@
 $(function () {
     var bar = '';
-
+ bar += '<center>';
  bar += '   <!-- NavBar -->                  ';
  bar += '   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"  >                   ';
  bar += '   <div class="container-fluid">                   ';
@@ -33,6 +33,7 @@ $(function () {
  bar += '       </div>                  ';
  bar += '   </div>                  ';
  bar += '   </nav>                  ';
+ bar += '</center>';
 
     $("#navbar").html(bar);
 
