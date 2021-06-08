@@ -6,7 +6,7 @@ $(function () {
  bar += '   <div class="container-fluid">                   ';
  bar += '       <a class="navbar-brand" href="#">                   ';
  bar += '       <img src="Asset/img/iconfit.png" alt="" width="37" height="35" class="d-inline-block align-text-top rounded-circle">                    ';
- bar += '       YoursTanmay                 ';
+ bar += '       YoursTanmay&nbsp;<span class="badge bg-light text-dark">Fitness</span>                 ';
  bar += '       </a>                    ';
  bar += '       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">                    ';
  bar += '       <span class="navbar-toggler-icon"></span>                   ';
