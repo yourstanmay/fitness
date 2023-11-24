@@ -29,7 +29,7 @@ $(function () {
 
  
  bar += '       </ul>                   ';
- bar += '          <a class="nav-link active text-light" aria-current="page" href="https://yourstanmay.000webhostapp.com/AdminPanel/contactMe.php" target="_blank">☎Contact Me</a>                 ';
+ bar += '          <a class="nav-link active text-light" aria-current="page" href="mailto:yourstanmay97@gmail.com" target="_blank">☎Contact Me</a>                 ';
  bar += '       </div>                  ';
  bar += '   </div>                  ';
  bar += '   </nav>                  ';
