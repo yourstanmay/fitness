@@ -2,7 +2,7 @@ $(function () {
     var bar = '';
     bar += '<!-- Footer -->';
     bar += '    <center><footer class="container-fluid bg-dark my-0 py-3 text-light">';
-    bar += '        <a href="https://yourstanmay.github.io/" class="mb-0 text-center text-decoration-none" style="color:white;">&copy; YoursTanmay 2020-2023</a>';
+    bar += '        <a href="https://yourstanmay.github.io/" class="mb-0 text-center text-decoration-none" style="color:white;">&copy; YoursTanmay 2020-2024</a>';
     bar += '        <p class="mb-0 text-center">';
     bar += '            <a style="color: #212529;" href=" https://www.facebook.com/tanmay.chowdhury.5688 " target="_blank"><img class="lg"';
     bar += '                    src="https://yourstanmay.github.io/Asset/img/Facebook.jpg" alt=" "> </a>';
