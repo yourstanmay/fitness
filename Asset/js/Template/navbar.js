@@ -4,7 +4,7 @@ $(function () {
  bar += '   <!-- NavBar -->                  ';
  bar += '   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"  >                   ';
  bar += '   <div class="container-fluid">                   ';
- bar += '       <a class="navbar-brand" href="#">                   ';
+ bar += '       <a class="navbar-brand" href="/">                   ';
  bar += '       <img src="Asset/img/iconfit.png" alt="" width="37" height="35" class="d-inline-block align-text-top rounded-circle">                    ';
  bar += '       YoursTanmay&nbsp;<span class="badge bg-light text-dark">Fitness</span>                 ';
  bar += '       </a>                    ';
