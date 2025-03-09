@@ -8,8 +8,8 @@ $(function () {
     bar += '                    src="https://yourstanmay.github.io/Asset/img/Facebook.jpg" alt=" "> </a>';
     bar += '            <a style="color: #212529;" href=" https://www.instagram.com/yourstanmay/  " target="_blank"><img class="lg"';
     bar += '                    src="https://yourstanmay.github.io/Asset/img/instagram.jpg" alt=" "> </a>';
-    bar += '            <a style="color: #212529;" href=" https://twitter.com/yourstanmay " target="_blank"><img class="lg"';
-    bar += '                    src="https://yourstanmay.github.io/Asset/img/twitter.jpg" alt=" "> </a>';
+    bar += '            <a style="color: #212529;" href=" https://x.com/yourstanmay " target="_blank"><img class="lg"';
+    bar += '                    src="https://yourstanmay.github.io/Asset/img/x.png" alt=" "> </a>';
     bar += '            <a style="color: #212529;" href=" https://www.linkedin.com/in/tanmay-chowdhury-51530abb/ " target="_blank"><img class="lg"';
     bar += '                    src="https://yourstanmay.github.io/Asset/img/linkedin.png" alt=" ">';
     bar += '            </a>';
