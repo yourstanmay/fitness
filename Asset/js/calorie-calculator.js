@@ -12,6 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
         calculateBtn.addEventListener('click', calculateCalories);
     }
 
+    const resetBtn = document.getElementById('reset-btn');
+    if (resetBtn) {
+        resetBtn.addEventListener('click', resetCalculator);
+    }
+
     const unitSelector = document.getElementById('unit-selector');
     if (unitSelector) {
         unitSelector.addEventListener('change', updateResultsUnits);
@@ -127,6 +132,31 @@ function calculateCalories() {
     
     // Display results
     displayResults();
+}
+
+// Reset the calculator to its initial state
+function resetCalculator() {
+    // Reset all input fields
+    document.getElementById('age').value = '';
+    document.getElementById('gender-male').checked = true;
+    document.getElementById('height-cm').value = '';
+    document.getElementById('height-feet').selectedIndex = 0;
+    document.getElementById('height-inches').selectedIndex = 0;
+    document.getElementById('weight').value = '';
+    document.getElementById('weight-unit').selectedIndex = 0;
+    document.getElementById('activity-level').selectedIndex = 2; // Default to moderate
+
+    // Reset results
+    calorieNeeded = 0;
+    fatNeeded = 0;
+    proteinNeeded = 0;
+    carbNeeded = 0;
+
+    // Hide results container
+    document.getElementById('results-container').classList.add('hidden');
+    
+    // Reset any error styling
+    resetErrorStyles();
 }
 
 // Reset error styles on all form inputs

@@ -451,6 +451,15 @@ legend.form-label {
     box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
+.reset-btn {
+    background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+    margin-top: 0.75rem;
+}
+
+.reset-btn:hover {
+    background: linear-gradient(135deg, #5a6268 0%, #343a40 100%);
+}
+
 .results-container {
     background: #f8f9fc;
     border-radius: 8px;
