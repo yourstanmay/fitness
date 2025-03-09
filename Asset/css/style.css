@@ -145,7 +145,8 @@ h6 {
     max-width: 100%;
     height: auto;
     position: relative;
-    right: 10px; /* Move image slightly to the right */
+    right: 10px;
+    /* Move image slightly to the right */
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 }
 
@@ -187,7 +188,8 @@ h6 {
         margin: 0 auto;
         display: block;
         position: relative;
-        right: 20px; /* Move image more to the right on mobile */
+        right: 20px;
+        /* Move image more to the right on mobile */
     }
 
     .section-title {
@@ -262,7 +264,8 @@ h6 {
     .hero-section img {
         max-width: 95%;
         position: relative;
-        right: 15px; /* Move image to the right on tablet */
+        right: 15px;
+        /* Move image to the right on tablet */
     }
 
     h1 {
@@ -833,3 +836,11 @@ legend.form-label {
     border: 1px solid #e53e3e;
     box-shadow: 0 0 0 1px rgba(229, 62, 62, 0.3);
 }
+
+/* 404 page css */
+/* Hero section */
+.bg-404 {
+    background: url(https://yourstanmay.github.io/fitness/Asset/img/backgd.jpg);
+}
+
+/* ************************ */
