@@ -3,7 +3,6 @@ let calorieNeeded = 0;
 let fatNeeded = 0;
 let proteinNeeded = 0;
 let carbNeeded = 0;
-let alcoholNeeded = 0;
 
 // Initialize the calculator
 document.addEventListener('DOMContentLoaded', function() {
@@ -118,11 +117,10 @@ function calculateCalories() {
     calorieNeeded = Math.floor(bmr * activityMultipliers[activityLevel]);
 
     // Calculate macronutrients (using standard percentages)
-    // 25% from fat, 25% from protein, 50% from carbs
-    fatNeeded = Math.floor((calorieNeeded * 0.25) / 9); // 9 calories per gram of fat
-    proteinNeeded = Math.floor((calorieNeeded * 0.25) / 4); // 4 calories per gram of protein
-    carbNeeded = Math.floor((calorieNeeded * 0.45) / 4); // 4 calories per gram of carbs
-    alcoholNeeded = Math.floor((calorieNeeded * 0.05) / 7); // 7 calories per gram of alcohol
+    // 30% from fat, 30% from protein, 40% from carbs
+    fatNeeded = Math.floor((calorieNeeded * 0.30) / 9); // 9 calories per gram of fat
+    proteinNeeded = Math.floor((calorieNeeded * 0.30) / 4); // 4 calories per gram of protein
+    carbNeeded = Math.floor((calorieNeeded * 0.40) / 4); // 4 calories per gram of carbs
 
     // Hide any error messages
     hideError();
@@ -165,7 +163,6 @@ function displayResults() {
     document.getElementById('fat-result').textContent = fatNeeded;
     document.getElementById('protein-result').textContent = proteinNeeded;
     document.getElementById('carb-result').textContent = carbNeeded;
-    document.getElementById('alcohol-result').textContent = alcoholNeeded;
 
     // Update unit text
     updateResultsUnits();
@@ -185,7 +182,6 @@ function updateResultsUnits() {
         document.getElementById('fat-result').textContent = fatNeeded;
         document.getElementById('protein-result').textContent = proteinNeeded;
         document.getElementById('carb-result').textContent = carbNeeded;
-        document.getElementById('alcohol-result').textContent = alcoholNeeded;
         
         unitElements.forEach(element => {
             element.textContent = 'grams';
@@ -194,7 +190,6 @@ function updateResultsUnits() {
         document.getElementById('fat-result').textContent = (fatNeeded / 1000).toFixed(2);
         document.getElementById('protein-result').textContent = (proteinNeeded / 1000).toFixed(2);
         document.getElementById('carb-result').textContent = (carbNeeded / 1000).toFixed(2);
-        document.getElementById('alcohol-result').textContent = (alcoholNeeded / 1000).toFixed(2);
         
         unitElements.forEach(element => {
             element.textContent = 'kilograms';
@@ -203,7 +198,6 @@ function updateResultsUnits() {
         document.getElementById('fat-result').textContent = (fatNeeded * 0.0022).toFixed(2);
         document.getElementById('protein-result').textContent = (proteinNeeded * 0.0022).toFixed(2);
         document.getElementById('carb-result').textContent = (carbNeeded * 0.0022).toFixed(2);
-        document.getElementById('alcohol-result').textContent = (alcoholNeeded * 0.0022).toFixed(2);
         
         unitElements.forEach(element => {
             element.textContent = 'pounds';
