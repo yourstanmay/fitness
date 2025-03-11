@@ -844,3 +844,16 @@ legend.form-label {
 }
 
 /* ************************ */
+/* Goto Top Button */
+#myBtn:hover {
+    background-color: #292a2c;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+#myBtn {
+    background-color: #636468;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+/* ************************ */

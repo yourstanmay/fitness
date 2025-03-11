@@ -24,7 +24,7 @@ $(function () {
  bar += '           </li>                   ';
  bar += '           </li>                   ';
  bar += '           <li class="nav-item">                   ';
- bar += '           <a class="nav-link active" aria-current="page" href="#Nutrition&Calories"><i class="fas fa-apple-alt"></i> Nutrition & Calories</a>                    ';
+ bar += '           <a class="nav-link active" aria-current="page" href="#Nutrition-Calories"><i class="fas fa-apple-alt"></i> Nutrition & Calories</a>                    ';
  bar += '           </li>                   ';
 
  
