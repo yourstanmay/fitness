@@ -428,7 +428,7 @@ legend.form-label {
 }
 
 .calculator-btn {
-    background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #000000 100%);
     color: white;
     border: none;
     padding: 0.75rem 1.25rem;
@@ -449,7 +449,7 @@ legend.form-label {
 }
 
 .calculator-btn:hover {
-    background: linear-gradient(135deg, #224abe 0%, #1a3a9c 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #000000 100%);
     transform: translateY(-2px);
     box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
